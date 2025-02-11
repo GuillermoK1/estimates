@@ -16,7 +16,7 @@ const links = [
   {
     label: 'Buscar profesionales cercanos',
     icon: 'i-heroicons-magnifying-glass',
-    to: '/plasmap'
+    to: 'https://www.plasmap.es'
   }]
 ]
 </script>
@@ -24,4 +24,3 @@ const links = [
 <template>
   <UHorizontalNavigation :links="links" class="bg-gray-200 dark:bg-gray-800 border-b border-gray-200 dark:border-gray-800 rounded w-fit" />
 </template>
-
